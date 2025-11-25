@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Model outputs and mlflow DB
+model/
+mlflow.db
+
+# ENV
+.env
+venv/
+/model
+
+# mlruns
+mlruns/
