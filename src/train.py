@@ -50,6 +50,7 @@ def main():
     )
 
     # Start MLflow run
+    mlflow.set_tracking_uri(f"sqlite:///mlflow.db")
     mlflow.set_experiment("titanic_experiment")
     with mlflow.start_run():
         # Логируем параметры
