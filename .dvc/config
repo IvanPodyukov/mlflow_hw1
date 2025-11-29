@@ -1,5 +1,4 @@
 [core]
     remote = myremote
 ['remote "myremote"']
-    url = s3://mlflow-hw1
-    endpointurl = https://storage.yandexcloud.net
+    url = https://storage.yandexcloud.net/mlflow-hw1/files/
